@@ -1,0 +1,197 @@
+/*-------------------------
+    Simple reset
+--------------------------*/
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*----------------------------
+    The file upload form
+-----------------------------*/
+
+
+#upload{
+    background-color:#d9d9d9;
+/*
+    background-image:-webkit-linear-gradient(top, #373a3d, #313437);
+    background-image:-moz-linear-gradient(top, #373a3d, #313437);
+    background-image:linear-gradient(top, #373a3d, #313437);
+*/
+    /*width:100%;*/
+    padding:30px;
+padding-bottom: 0;
+    margin:0 auto;
+}
+
+#drop{
+    background-color: #d9d9d9;
+    margin-bottom: 10px;
+    border: 20px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    /*border-image: url('../img/border-image.png') 25 repeat;*/
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size:16px;
+    font-weight:bold;
+    color:#7f858a;
+	border: dotted;
+padding: 20px
+}
+
+#drop a{
+    background-color:#007a96;
+    padding:12px 26px;
+    color:#fff;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:12px;
+    line-height:1;
+}
+
+#drop a:hover{
+    background-color:#0986a3;
+}
+
+#drop input{
+    display:none;
+}
+
+#upload ul{
+    list-style:none;
+    margin:0 -30px;
+    border-top:1px solid #2b2e31;
+    border-bottom:1px solid #3d4043;
+}
+
+#upload ul li{
+
+    background-color:#333639;
+
+    background-image:-webkit-linear-gradient(top, #333639, #303335);
+    background-image:-moz-linear-gradient(top, #333639, #303335);
+    background-image:linear-gradient(top, #333639, #303335);
+
+    border-top:1px solid #3d4043;
+    border-bottom:1px solid #2b2e31;
+    padding:15px;
+    height: 75px;
+	color: #478d28;
+    position: relative;
+}
+
+#upload ul li input{
+    display: none;
+}
+
+#upload ul li p{
+    width: 130px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #EEE;
+    font-size: 14px;
+    position: absolute;
+    left: 72px;
+}
+
+#upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+}
+
+#upload ul li canvas{
+
+    position: absolute;
+}
+
+#upload ul li span{
+    width: 15px;
+    height: 12px;
+    background: url('../img/icons.png') no-repeat;
+    position: absolute;
+    top: 39px;
+    right: 14px;
+    cursor:pointer;
+}
+
+#upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#upload ul li.error p{
+    color:red;
+}
+
+
+/*----------------------------
+    The Demo Footer
+-----------------------------*/
+
+
+
+#tzine-download{
+    opacity:0.9;
+    background-color:#257691;
+    font-size:11px;
+    text-align:center;
+    text-transform:uppercase;
+    width:150px;
+    height:28px;
+    line-height:28px;
+    text-decoration:none !important;
+
+    display: inline-block;
+    border-radius: 2px;
+    color: #fff !Important;
+    font-weight: bold;
+    box-shadow: 0 -1px 2px #1e5e74 inset;
+
+    border-top:1px solid #26849c;
+
+    text-shadow:1px 1px 1px #1e6176;
+    margin-top:6px;
+}
+
+#tzine-download:hover{
+    opacity:1;
+}
+
+#tzine-actions{
+    position:absolute;
+    top:0;
+    width:500px;
+    right:50%;
+    margin-right:-420px;
+    text-align:right;
+}
+
+#tzine-actions iframe{
+    display: inline-block;
+    height: 21px;
+    width: 95px;
+    position: relative;
+    float: left;
+    margin-top: 11px;
+}
+
+#upload_preview img:hover{
+	opacity:0.3;
+	cursor:pointer;
+}
+#upload_preview img{
+	margin-bottom:15px;
+	border:1px solid #c3c3c3;
+	display:inline-block;
+}
+#upload-info{
+	color:red;margin-bottom:30px 0 30px0;font-size: 13px;
+}
