@@ -1,0 +1,1119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPD\n"
+"POT-Creation-Date: 2015-05-17 19:21+0100\n"
+"PO-Revision-Date: 2015-05-17 19:21+0100\n"
+"Last-Translator: ORION TEAM <support@orionorigin.com>\n"
+"Language-Team: ORION <support@orionorigin.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wpd-admin.php:110
+msgid "Parts"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:111
+msgid "Fonts"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:112 ../admin/class-wpd-admin.php:1273
+#: ../includes/class-wpd-clipart.php:28 ../includes/class-wpd-clipart.php:29
+#: ../includes/class-wpd-clipart.php:38 ../includes/class-wpd-clipart.php:70
+msgid "Cliparts"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:113
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:114
+msgid "Get Started"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:115
+msgid "Advanced features"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:169
+msgid "Welcome to WooCommerce Products Designer"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:170
+#, php-format
+msgid ""
+"Thanks for installing! WooCommerce Products Designer %s is more powerful, "
+"stable and secure than ever before. We hope you enjoy using it."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:183
+msgid "Getting Started"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:184
+msgid "Follow Us"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:194
+msgid "How to install the demo package?"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:202
+msgid "How to set the basic settings?"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:210
+msgid "How to create a customizable product?"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:372
+msgid "Remove"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:405
+msgid "Customizer Page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:406
+msgid ""
+"This setting allows the plugin to locate the page where customizations are "
+"made."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:416
+msgid "Automatically append canvas to the customizer page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:420
+msgid ""
+"This option allows you to define whether or not you want to use a shortcode "
+"to display the the customizer in the selected page."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:422 ../admin/class-wpd-admin.php:466
+#: ../admin/class-wpd-admin.php:477 ../admin/class-wpd-admin.php:488
+#: ../admin/class-wpd-admin.php:500 ../admin/class-wpd-admin.php:512
+#: ../admin/class-wpd-admin.php:523 ../admin/class-wpd-admin.php:555
+#: ../admin/class-wpd-product.php:141
+msgid "No"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:423 ../admin/class-wpd-admin.php:465
+#: ../admin/class-wpd-admin.php:476 ../admin/class-wpd-admin.php:487
+#: ../admin/class-wpd-admin.php:499 ../admin/class-wpd-admin.php:511
+#: ../admin/class-wpd-admin.php:522 ../admin/class-wpd-admin.php:554
+#: ../admin/class-wpd-product.php:139
+msgid "Yes"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:427
+msgid "Canvas max width (px)"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:437
+msgid "Canvas max height (px)"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:448
+msgid "Parts position in cart"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:452
+msgid ""
+"This option allows you to set where to show your customized products parts "
+"on the cart page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:454
+msgid "Thumbnail column"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:455
+msgid "Name column"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:459 ../includes/class-wpd-design.php:391
+msgid "Download design"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:463
+msgid ""
+"This option allows you to show/hide the download button on the customization "
+"page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:470
+msgid "Download design from user account page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:474
+msgid ""
+"This option allows you to show/hide the download button on user account page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:481
+msgid "Send the design as an attachment"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:485
+msgid "This option allows you to send or not the design by mail after checkout"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:493
+msgid "Preview design"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:497
+msgid ""
+"This option allows you to show/hide the preview button on the customization "
+"page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:505
+msgid "Add to cart"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:509
+msgid ""
+"This option allows you to show/hide the cart button on the customization page"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:516
+msgid "Redirect after adding a custom design to the cart?"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:520
+msgid ""
+"This option allows you to define what to do after adding a design to the cart"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:529
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:548
+msgid "Load bootsrap modal"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:552
+msgid ""
+"This option allows you to enable/disable twitter's bootstrap modal script"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:609
+msgid "File upload script"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:613
+msgid ""
+"This option allows you to set which file upload script you would like to use"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:615
+msgid "Custom with graphical enhancements"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:616
+msgid "Normal"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:620
+msgid "Allowed uploads extensions"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:624
+msgid "Allowed extensions for uploads"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:626
+msgid "jpg"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:627
+msgid "jpeg"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:628
+msgid "png"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:629
+msgid "gif"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:630
+msgid "bmp"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:631
+msgid "svg"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:632
+msgid "psd"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:633
+msgid "eps"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:638
+msgid "Custom designs allowed extensions (separated by commas)"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:639
+msgid ""
+"Allowed extensions for custom designs. If not set, all extensions will be "
+"accepted."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:649 ../admin/class-wpd-admin.php:1031
+#: ../admin/class-wpd-admin.php:1158
+msgid "Normal color"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:657 ../admin/class-wpd-admin.php:1166
+msgid "Active color"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:665 ../admin/class-wpd-admin.php:884
+#: ../admin/class-wpd-admin.php:1047 ../admin/class-wpd-admin.php:1176
+msgid "Active controls"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:666 ../admin/class-wpd-admin.php:885
+#: ../admin/class-wpd-admin.php:1048 ../admin/class-wpd-admin.php:1177
+msgid "Show this tab"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:672 ../admin/class-wpd-admin.php:679
+#: ../admin/class-wpd-admin.php:1184 ../includes/class-wpd-editor.php:743
+msgid "Grayscale"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:686 ../admin/class-wpd-admin.php:1191
+#: ../includes/class-wpd-editor.php:749
+msgid "Invert"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:693 ../admin/class-wpd-admin.php:1198
+msgid "Sepia1"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:700 ../admin/class-wpd-admin.php:1205
+msgid "Sepia2"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:707 ../admin/class-wpd-admin.php:1212
+#: ../includes/class-wpd-editor.php:767
+msgid "Blur"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:714 ../admin/class-wpd-admin.php:1219
+#: ../includes/class-wpd-editor.php:773
+msgid "Sharpen"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:721 ../admin/class-wpd-admin.php:971
+#: ../admin/class-wpd-admin.php:1124 ../admin/class-wpd-admin.php:1226
+#: ../includes/class-wpd-editor.php:485 ../includes/class-wpd-editor.php:597
+#: ../includes/class-wpd-editor.php:710 ../includes/class-wpd-editor.php:847
+msgid "Opacity"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:728 ../admin/class-wpd-admin.php:1233
+#: ../includes/class-wpd-editor.php:779
+msgid "Emboss"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:737
+msgid "Uploads Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:764
+msgid "Generated files"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:765
+msgid "PDF"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:772
+msgid "Zip output folder"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:781 ../admin/class-wpd-product.php:380
+msgid "PDF Format"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:794 ../admin/class-wpd-product.php:393
+msgid "PDF Margin Top & Bottom"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:805 ../admin/class-wpd-product.php:405
+msgid "PDF Margin Left & Right"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:838 ../admin/class-wpd-product.php:417
+msgid "PDF Orientation"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:843 ../admin/class-wpd-product.php:423
+msgid "Portrait"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:844 ../admin/class-wpd-product.php:424
+msgid "Landscape"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:850
+msgid "Output Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:879
+msgid "Text Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:894 ../includes/class-wpd-editor.php:522
+msgid "Underline"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:901 ../includes/class-wpd-editor.php:399
+msgid "Bold"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:908 ../includes/class-wpd-editor.php:405
+msgid "Italic"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:915
+msgid "Text Color"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:922 ../admin/class-wpd-admin.php:1110
+msgid "Background Color"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:929 ../admin/class-wpd-admin.php:1103
+#: ../includes/class-wpd-editor.php:426 ../includes/class-wpd-editor.php:575
+msgid "Outline"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:936
+msgid "Curved"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:943
+msgid "Font Family"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:950
+msgid "Font Size"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:964 ../admin/class-wpd-admin.php:1117
+msgid "Outline Width"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:985 ../includes/class-wpd-editor.php:497
+msgid "Alignment"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:992 ../includes/class-wpd-editor.php:528
+msgid "Strikethrough"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:999 ../includes/class-wpd-editor.php:534
+msgid "Overline"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1029
+msgid "Shapes Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1038
+msgid "Active Color"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1055
+msgid "Square"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1062
+msgid "Rounded square"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1069
+msgid "Circle"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1076
+msgid "Triangle"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1083
+msgid "Polygon"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1090
+msgid "Star"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1097
+msgid "Heart"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1155
+msgid "Image Settings"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1268
+msgid "General"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1269
+msgid "Uploads"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1270
+msgid "Output"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1271 ../includes/class-wpd-editor.php:347
+msgid "Text"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1272 ../includes/class-wpd-editor.php:610
+msgid "Shapes"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1328
+msgid "Save"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1360
+msgid "Settings successfully saved."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1437
+msgid "Woocommerce Product Designer database update required"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1439
+msgid ""
+"Hi! This version of the Woocommerce Product Designer made some changes in "
+"the way it's data are stored. So in order to work properly, we just need you "
+"to click on the \"Run Updater\" button to move your old settings to the new "
+"structure. "
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1440
+msgid "Run the updater"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1531 ../admin/class-wpd-admin.php:1535
+msgid "Something went wrong..."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:1537
+msgid "Your database has been successfully updated."
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:2032
+msgid "Hard Crop?"
+msgstr ""
+
+#: ../admin/class-wpd-admin.php:2056
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:18
+msgid "Customizable Product"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:37
+msgid "Customized product options form"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:40
+msgid "No option form needed"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:82
+msgid ""
+"Error: empty product parts list. At least one part is required to create a "
+"customizable product."
+msgstr ""
+
+#: ../admin/class-wpd-product.php:92 ../includes/class-wpd-editor.php:32
+msgid ""
+"Error: No active part defined for this product. A customizable product "
+"should have at least one part defined."
+msgstr ""
+
+#: ../admin/class-wpd-product.php:115
+msgid "Product parts"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:125
+msgid "Custom"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:158
+msgid "BOUNDING BOX PARAMETERS"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:159
+msgid ""
+"If the coordinates (X,Y) are not set, they will automatically be determined "
+"from the product center."
+msgstr ""
+
+#: ../admin/class-wpd-product.php:160
+msgid "X"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:160
+msgid "Bounding box coordinate X on the product"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:161
+msgid "Y"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:161
+msgid "Bounding box coordinate Y on the product"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:163
+msgid "The dimensions are required to apply a bounding box on the product."
+msgstr ""
+
+#: ../admin/class-wpd-product.php:164 ../includes/class-wpd-editor.php:432
+#: ../includes/class-wpd-editor.php:578
+msgid "Width"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:164
+msgid "Bounding box width on the product"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:165
+msgid "Height"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:165
+msgid "Bounding box height on the product"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:166
+msgid "Radius (rect)"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:166
+msgid "Bounding box radius on the product (used for rectangle)"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:167
+msgid "Radius (circle)"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:167
+msgid "Bounding box radius on the product (used for circle)"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:168
+msgid "Type"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:168
+msgid "Bounding box type"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:169
+msgid "Border color"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:169
+msgid "Bounding box border color"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:177 ../admin/class-wpd-product.php:235
+msgid ""
+"Error: empty product parts list. At least one is required to create a "
+"customizable product."
+msgstr ""
+
+#: ../admin/class-wpd-product.php:196
+msgid "Please setup the products variations first."
+msgstr ""
+
+#: ../admin/class-wpd-product.php:272
+msgid "is less than"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:273
+msgid "is less or equal to"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:274
+msgid "equals"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:275
+msgid "more than"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:276
+msgid "more or equal to"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:277
+msgid "Per item"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:278
+msgid "On whole design"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:347
+msgid "and"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:362
+msgid "NB chars in text"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:363
+msgid "NB lines in text"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:364
+msgid "NB images"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:365
+msgid "NB vectors"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:532
+msgid "Background image (not included in design)"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:535 ../admin/class-wpd-product.php:555
+#: ../admin/class-wpd-product.php:575
+msgid "Set image"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:552
+msgid "Background image (included in design)"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:572
+msgid "Overlay image"
+msgstr ""
+
+#: ../admin/class-wpd-product.php:591
+msgid "Included in design"
+msgstr ""
+
+#: ../includes/class-wpd-clipart.php:30 ../includes/class-wpd-clipart.php:31
+#: ../includes/class-wpd-clipart.php:33
+msgid "New cliparts group"
+msgstr ""
+
+#: ../includes/class-wpd-clipart.php:32
+msgid "Edit cliparts group"
+msgstr ""
+
+#: ../includes/class-wpd-clipart.php:34
+msgid "View group"
+msgstr ""
+
+#: ../includes/class-wpd-clipart.php:36
+msgid "No cliparts group found"
+msgstr ""
+
+#: ../includes/class-wpd-clipart.php:37
+msgid "No cliparts group in the trash"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:32
+msgid "An error occured. Please try again later"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:62
+msgid "Item successfully updated."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:62
+msgid "View Cart"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:80
+msgid "Product successfully added to basket."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:82 ../includes/class-wpd-design.php:85
+msgid "A problem occured. Please try again."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:131 ../includes/class-wpd-design.php:189
+msgid ""
+"An error has occured. Please try again later or contact the administrator."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:181
+msgid "The design has successfully been saved to your account."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:239
+msgid "The generation has been successfully completed. Please click "
+msgstr ""
+
+#: ../includes/class-wpd-design.php:239 ../includes/class-wpd-design.php:244
+#: ../includes/class-wpd-design.php:246
+msgid "here"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:239
+msgid "to download your design"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:244 ../includes/class-wpd-design.php:246
+msgid ": please click "
+msgstr ""
+
+#: ../includes/class-wpd-design.php:244 ../includes/class-wpd-design.php:246
+msgid "to download"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:257
+msgid "An error occured in the generation process. Please try again later."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:263
+msgid "Can't create a generation directory..."
+msgstr ""
+
+#: ../includes/class-wpd-design.php:408 ../includes/class-wpd-design.php:414
+msgid "Download custom design"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:428 ../public/class-wpd-public.php:313
+msgid "Cheating huh?"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:476 ../public/class-wpd-public.php:388
+msgid "An error occured during the upload. Please try again later"
+msgstr ""
+
+#: ../includes/class-wpd-design.php:480 ../public/class-wpd-public.php:394
+msgid "Incorrect file extension. Allowed extensions: "
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:133 ../includes/class-wpd-editor.php:135
+msgid "Just a moment"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:134
+msgid "The deletion of this object is not allowed"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:136
+msgid "The edition area is empty."
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:137
+msgid "Do you really want to delete all items in the design area ?"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:138
+msgid "Do you really want to delete the selected items ?"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:139
+msgid "Please enter the text to add."
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:169
+msgid "TEXT"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:179
+msgid "SHAPES"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:191
+msgid "UPLOADS"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:202
+msgid "CLIPARTS"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:214
+msgid "MY DESIGNS"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:304
+msgid "grid"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:305
+msgid "Clear all"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:306 ../includes/class-wpd-editor.php:1022
+#: ../includes/wpd-add-fonts.php:175 ../includes/wpd-add-parts.php:147
+msgid "Delete"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:307
+msgid "Duplicate"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:308
+msgid "Send to back"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:309
+msgid "Bring to front"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:310
+msgid "Flip horizontally"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:311
+msgid "Flip vertically"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:312
+msgid "Center horizontally"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:313
+msgid "Center vertically"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:314
+msgid "Undo"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:315
+msgid "Redo"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:350
+msgid "ADD"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:374
+msgid "Size"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:392
+msgid "Style"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:410
+msgid "Text color"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:415 ../includes/class-wpd-editor.php:441
+#: ../includes/class-wpd-editor.php:567
+msgid "Background color"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:434 ../includes/class-wpd-editor.php:539
+msgid "None"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:440
+msgid "Color"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:459
+msgid "Radius"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:468
+msgid "Spacing"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:516
+msgid "Decoration"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:565
+msgid "Background"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:587
+msgid "Outline color"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:665
+msgid "Pick a file"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:694
+msgid "Filters"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:755
+msgid "Sepia 1"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:761
+msgid "Sepia 2"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:831
+msgid "Filter"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:873
+msgid "Saved Designs"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:885
+msgid "Past Orders"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:898
+msgid "You need to be logged in before loading your designs."
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1018 ../includes/class-wpd-editor.php:1021
+msgid "Load"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1104
+msgid "ACTIONS"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1109 ../includes/class-wpd-editor.php:1135
+msgid "PREVIEW"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1117
+msgid "DOWNLOAD"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1123
+msgid "SAVE"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1183
+msgid "UPDATE CART"
+msgstr ""
+
+#: ../includes/class-wpd-editor.php:1189
+msgid "ADD TO CART"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:106
+msgid "Edit Font"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:112 ../includes/wpd-add-fonts.php:158
+#: ../includes/wpd-add-fonts.php:198 ../includes/wpd-add-parts.php:106
+#: ../includes/wpd-add-parts.php:135 ../includes/wpd-add-parts.php:165
+msgid "Name"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:116 ../includes/wpd-add-parts.php:110
+msgid "Name for the attribute (shown on the front-end)."
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:130 ../includes/wpd-add-fonts.php:160
+#: ../includes/wpd-add-fonts.php:203
+msgid "URL"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:134 ../includes/wpd-add-fonts.php:205
+msgid ""
+"Google font URL. Leave this field empty if the font is already loaded by the "
+"theme."
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:139 ../includes/wpd-add-parts.php:115
+msgid "Update"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:150
+msgid "Add Fonts"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:175 ../includes/wpd-add-parts.php:147
+msgid "Edit"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:185
+msgid "No fonts currently exist."
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:195
+msgid "Add New Font"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:200
+msgid "Name for the font (shown on the front-end)."
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:207
+msgid "Add Font"
+msgstr ""
+
+#: ../includes/wpd-add-fonts.php:216
+msgid "Are you sure you want to delete this font?"
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:100
+msgid "Edit Part"
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:127
+msgid "Add Parts"
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:152
+msgid "No parts currently exist."
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:162
+msgid "Add New Part"
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:167
+msgid "Name for the part (shown on the front-end)."
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:169
+msgid "Add Part"
+msgstr ""
+
+#: ../includes/wpd-add-parts.php:178
+msgid "Are you sure you want to delete this part?"
+msgstr ""
+
+#: ../public/class-wpd-public.php:186 ../public/class-wpd-public.php:209
+#: ../public/class-wpd-public.php:222
+msgid "Design from blank"
+msgstr ""
+
+#: ../public/class-wpd-public.php:360
+#, php-format
+msgid "Uploaded file dimensions: %1$spx x %2$spx, minimum required "
+msgstr ""
+
+#: ../public/class-wpd-public.php:485
+msgid "Custom design"
+msgstr ""
