@@ -1,5 +1,9 @@
 Version 2.0 - May 18th, 2015
+-Fixed permalink flush issue
+-Fixed font family related issue
+-Fixed element center issues
 
+Version 2.0 - May 18th, 2015
 -New interface which includes responsive features
 -Added Overlay image not included in the output feature
 -Added new text decoration features: overline and strike-through

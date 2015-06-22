@@ -23,11 +23,11 @@ class WPD_Editor {
     }
 
     function get_editor() {
-        GLOBAL $wpc_options_settings, $wp_query;
+        GLOBAL $wpc_options_settings, $wp_query, $wpdb;
         $wpd_query_vars = array();
 
         ob_start();
-        $product = get_product($this->item_id);
+        $product = wc_get_product($this->item_id);
         if (!WPD_Product::has_part($this->root_item_id)) {
             _e('Error: No active part defined for this product. A customizable product should have at least one part defined.', 'wpd');
             return;
@@ -356,13 +356,15 @@ class WPD_Editor {
                 <div >
                     <span >Font</span>
                     <span class="font-selector-container ">
-                        <select id="font-family-selector" class="font-selector text-element-border">
+                        <select id="font-family-selector" class="text-element-border">
                             <?php
-                            foreach ($fonts as $font) {
+                                foreach ($fonts as $font)
+                                {
                                 $font_label = $font[0];
-                                echo "<option data-font_style = 'font-family:$font_label' value = '$font_label' >$font_label</option>";
+                                    echo "<optgroup style='font-family:$font_label'><option>$font_label</option></optgroup>";
                             }
                             ?>
+
                         </select>
                     </span>
                 </div>
@@ -1101,7 +1103,7 @@ class WPD_Editor {
             return;
         ?>
         <div id="wpc-design-btn-box" >
-            <div class="title"><?php _e("ACTIONS", "wpd"); ?></div>
+            <div class="title" id="wpc-action-title"><?php _e("ACTIONS", "wpd"); ?></div>
             <?php
             if(isset($preview_btn) && $preview_btn!=="0")
             {
@@ -1150,7 +1152,7 @@ class WPD_Editor {
         if(isset($general_options['wpc-cart-btn']))
             $cart_btn=  $general_options['wpc-cart-btn'];
         
-        $product = get_product($this->item_id);
+        $product = wc_get_product($this->item_id);
         $product_price = $product->price;
         $shop_currency_symbol = get_woocommerce_currency_symbol();
         if(isset($cart_btn) && $cart_btn!=="0")
@@ -1158,7 +1160,7 @@ class WPD_Editor {
             $quantity=1;
         ?>
         <div id="wpc-cart-box" class="">
-            <div class="title">CART</div>
+                <div class="title" id="cart_title">CART</div>
             <div id="wpc-qty-container" class="">
                 <?php
             if (!isset($wp_query->query_vars["edit"])) 
@@ -1205,7 +1207,6 @@ class WPD_Editor {
         wp_enqueue_script('wpd-editor-shapes-js', WPD_URL . 'public/js/editor.shapes.min.js', array('jquery'), WPD_VERSION, false);
         wp_enqueue_script('wpd-accordion-js', WPD_URL . 'public/js/SpryAssets/SpryAccordion.min.js', array('jquery'), WPD_VERSION, false);
         wp_enqueue_script('wpd-block-UI-js', WPD_URL . 'public/js/blockUI/jquery.blockUI.min.js', array('jquery'), WPD_VERSION, false);
-        wp_enqueue_script('wpd-fancyselect-js', WPD_URL . 'public/js/fancySelect.min.js', array('jquery'), WPD_VERSION, false);
         wp_enqueue_script('wpd-editor-img-js', WPD_URL . 'public/js/editor.img.min.js', array('jquery'), WPD_VERSION, false);
         self::register_upload_scripts();
     }
@@ -1308,4 +1309,3 @@ class WPD_Editor {
         }
 
     }
-    

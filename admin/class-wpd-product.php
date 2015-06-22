@@ -177,7 +177,7 @@ class WPD_Product {
             echo __( 'Error: empty product parts list. At least one is required to create a customizable product.', 'wpd' ); 
             return;
         }
-        get_product_tab_datas("wpc_parts_tab_data");        
+        $this->get_product_tab_datas("wpc_parts_tab_data");        
         die();
 
     }
@@ -614,7 +614,7 @@ class WPD_Product {
     public static function has_part($product_id)
     {
        $parts=  get_option("wpc-parts");
-       $wc_product=get_product($product_id);
+       $wc_product=wc_get_product($product_id);
        $wpc_metas=get_post_meta($product_id,'wpc-metas',true);
        if($wc_product->product_type=="variable")
        {
@@ -676,7 +676,7 @@ class WPD_Product {
                     if (substr($wpc_page_url, -1) != '/' ) {
                         $wpc_page_url .= '/';
                     }
-                    if($design_index){
+                    if($design_index||$design_index===0){
                         $wpc_page_url .= "saved-design/$variation_id/$design_index/";
                     }
                     elseif ($cart_item_key) {

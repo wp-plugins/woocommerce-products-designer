@@ -16,7 +16,7 @@
  * Plugin Name:       Woocommerce Products Designer
  * Plugin URI:        http://www.orionorigin.com/woocommerce-product-designer/
  * Description:       The Interactive Way to Customize & Sell Your Products Online!
- * Version:           2.0
+ * Version:           2.1
  * Author:            ORION
  * Author URI:        http://orionorigin.com
  * License:           GPL-2.0+
@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WPD_VERSION', '2.0' );
+define( 'WPD_VERSION', '2.1' );
 define( 'WPD_URL', plugins_url('/', __FILE__) );
 define( 'WPD_DIR', dirname(__FILE__) );
 define( 'WPD_MAIN_FILE', 'woocommerce-product-designer/wpd.php' );

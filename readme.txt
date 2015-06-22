@@ -119,6 +119,29 @@ Woocommerce Product Designer works with any theme, including the default WordPre
 
 == Changelog ==
 
+= 2.1 =
+-Fixed permalink flush issue
+-Fixed font family related issue
+-Fixed element center issues
+
+= 2.0 =
+-New interface which includes responsive features
+-Added Overlay image not included in the output feature
+-Added new text decoration features: overline and strike-through
+-Added text alignment features (left, center, right)
+-Added mobile version of colorpicker
+-Added automatic updates detection from codecanyon
+-Added ability to configure different outputs per product
+-Added ability to upload multiple custom designs on product details page
+-Added ability to configure the PDF format (A1, A2, A3, A4, ....up to 140 standard formats) 
+-Added ability to configure the PDF orientation (Portrait or Landscape)
+-Added ability to configure the PDF margins (top/bottom and left/right)
+-Improved plugin data storage in database (w've added an updater to help migrate the old data to new structure)	
+-Improved resources (js and css) loading per page
+-Fixed overlay images bug when overlay/background images were not defined before creating the template but after
+-Upgraded url structures to use permalinks style (like /customization-page/design/638
+-Removed bounding box feature (can be easily replaced by the overlay image feature)
+
 = 1.0 =
 * First release
 

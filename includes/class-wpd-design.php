@@ -61,7 +61,7 @@ class WPD_Design {
                     $_SESSION["wpc_generated_data"][$variation_id][$cart_item_key] = $final_canvas_parts;
                     $message = "<div class='wpc_notification success f-right'>" . __("Item successfully updated.", "wpd") . " <a href='$cart_url'>" . __("View Cart", "wpd") . "</a></div>";
                 } else {
-                    $variable_product = get_product($variation_id);
+                    $variable_product = wc_get_product($variation_id);
                     $variation = array();
                     if ($variable_product->product_type == "simple")
                         $product_id = $variation_id;
@@ -271,7 +271,7 @@ class WPD_Design {
         $options = $wpc_options_settings['wpc-general-options'];
         $download_btn = WPD_Admin::get_proper_value($options, 'wpc-user-account-download-btn', "");
         if ($download_btn !== "0" && isset($item["variation_id"]) && (!empty($item["variation_id"]) || $item["variation_id"] == "0")) {
-            $product = get_product($item["variation_id"]);
+            $product = wc_get_product($item["variation_id"]);
             $item_id = uniqid();
             //        var_dump($product);
             ob_start();
@@ -452,7 +452,8 @@ class WPD_Design {
                 if (isset($_SESSION["wpc-user-uploaded-designs"][$product_id]))
                     unset($_SESSION["wpc-user-uploaded-designs"][$product_id]);
 
-                list($txt, $ext) = explode(".", $name);
+                $path_parts = pathinfo($name);
+                $ext=  $path_parts['extension'];
                 $ext = strtolower($ext);
                 if (in_array($ext, $valid_formats) || empty($valid_formats)) {
                     //            var_dump($_FILES);
@@ -636,7 +637,7 @@ class WPD_Design {
     public static function get_option_form($product_id, $wpc_metas) {
         if (function_exists('ninja_forms_display_form')) {
             global $woocommerce;
-            $product = get_product($product_id);
+            $product = wc_get_product($product_id);
             if ($product->product_type == "variation")
                 $normal_product_id = $product->parent->id;
             else
